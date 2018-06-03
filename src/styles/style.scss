@@ -1,0 +1,21 @@
+*{
+  font-size: 12pt;
+}
+
+ol{
+  list-style: none;
+  counter-reset: li;
+  li:before{
+    counter-increment: li;
+    content: counters(li,".")". ";
+  }
+}
+img{
+  max-width: 200px;
+  border-radius: 50%;
+}
+.form{
+  label,input,textarea {
+    display: block;
+  }
+}

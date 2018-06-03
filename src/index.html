@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.options.chunks.head%>">
+    <script defer src="<%= htmlWebpackPlugin.options.chunks.js%>"></script>
+</head>
+<body>
+
+<ol>
+    <li>
+        <ol>
+            <li>Подсписок</li>
+            <li>Подсписок</li>
+        </ol>
+    </li>
+    <li>
+        <ol>
+            <li>Подсписок</li>
+            <li>Подсписок</li>
+        </ol>
+    </li>
+    <li>
+        <ol>
+            <li>Подсписок</li>
+            <li>Подсписок</li>
+        </ol>
+    </li>
+</ol>
+
+<img src="img/DSC_2821.jpg"<% require('./img/DSC_2821.jpg') %>>
+
+<div class="form">
+<label for="text">Введите текст</label>
+    <textarea id="text" name="text"></textarea>
+<button id="go" type="button">GO!</button>
+    <p id="result"><p>
+</div>
+</body>
+</html>
