@@ -1,5 +1,5 @@
 {
-  "name": "FD3Project",
+  "name": "WebpackConfigurationLite",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
